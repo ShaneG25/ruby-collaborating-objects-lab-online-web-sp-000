@@ -10,6 +10,6 @@ class Artist
   
   def find(name)
     result = nil 
-    nil
+    result 
   end 
 end 
