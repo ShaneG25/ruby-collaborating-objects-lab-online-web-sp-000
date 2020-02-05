@@ -31,5 +31,8 @@ class Artist
       Artist.new(name)
     else 
       found 
+    end 
   end 
+  
+  
 end 
