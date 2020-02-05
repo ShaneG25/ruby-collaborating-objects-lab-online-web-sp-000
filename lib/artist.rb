@@ -8,5 +8,5 @@ class Artist
     @@all << self 
   end 
   
-  def 
+  def find
 end 
