@@ -21,6 +21,6 @@ class Song
     name = splits[1]
     artistName = splits[0]
     newSong = Song.new(name)
-    
+    newSong.ar
   end 
 end 
