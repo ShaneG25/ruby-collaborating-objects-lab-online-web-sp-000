@@ -8,5 +8,8 @@ class Artist
     @@all << self 
   end 
   
-  def find
+  def find(name)
+    result = nil 
+    nil
+  end 
 end 
