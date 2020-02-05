@@ -35,7 +35,7 @@ class Artist
   end 
   
   def print_songs
-    songsArr = Song.all.select{|song| song.artist = self}
+    songsArr = Song.all.select{|song| song.artist == self}
     songsArr.each do |song|
       puts "#{song.name}"
     end 
