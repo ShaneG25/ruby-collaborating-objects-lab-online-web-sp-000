@@ -6,6 +6,6 @@ class MP3Importer
   end 
   
   def files 
-    Dir.chdir
+    Dir.chdir(@path)
   end 
 end 
