@@ -27,6 +27,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
     found = self.all.detect{|artist| artist.name == name}
-    if 
+    if (found == nil)
+      Artist
   end 
 end 
