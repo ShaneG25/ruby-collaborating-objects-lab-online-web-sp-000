@@ -20,5 +20,7 @@ class Song
     splits = filename.split(" - ")
     name = splits[1]
     artistName = splits[0]
+    newSong = Song.new(name)
+    
   end 
 end 
