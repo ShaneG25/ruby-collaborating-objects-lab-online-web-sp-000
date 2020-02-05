@@ -12,4 +12,7 @@ class Artist
     result = nil 
     result 
   end 
+  
+  def self.all 
+    
 end 
