@@ -37,6 +37,7 @@ class Artist
   def print_songs
     songsArr = Song.all.select{|song| song.artist = self}
     songsArr.each do |song|
-      puts 
+      puts "#{song.name}"
+    end 
   end 
 end 
