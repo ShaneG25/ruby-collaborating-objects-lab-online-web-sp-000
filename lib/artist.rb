@@ -35,6 +35,7 @@ class Artist
   end 
   
   def print_songs
-    songsArr = Song.all.select{|song| 
+    songsArr = Song.all.select{|song| song.artist = self}
+    
   end 
 end 
